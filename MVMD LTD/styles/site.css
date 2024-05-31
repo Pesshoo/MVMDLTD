@@ -1,0 +1,187 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(responsive.css);
+
+/* Navigation */
+
+.site {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: rgb(187, 42, 42);
+}
+
+.site-inf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2em;
+}
+
+
+.site-inf p{
+    color: white;
+    text-transform: uppercase;
+}
+
+.site-inf a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.site-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5em;
+    margin-block: 0em;
+}
+
+.site-navigation nav ul {
+    display: flex;
+}
+
+.site-navigation nav ul li {
+    list-style: none;
+}
+
+.site-navigation nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 2em;
+}
+
+/* Banner */
+
+.site-banner{
+    width: 100%;
+    height: 40em;
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.site-banner-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    line-height: 3.4em;
+    position: relative;
+    text-align: center;
+}
+
+.site-banner-information h1{
+    color: #fff;
+    font-size: 3em;
+}
+
+.site-banner-information p{
+    color: #fff;
+    font-size: 1.3em;
+    margin-block: 1em;
+}
+
+.site-banner-information a{
+    color: #fff;
+    font-size: 1.3em;
+    background-color: rgb(187, 42, 42);
+    border-radius: 0.5em;
+    padding-inline: 1em;
+}
+
+/* Site Information */
+
+.site-information{
+    margin: 2em;
+}
+
+.site-inf-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-inf-cards .card{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.site-inf-cards .card i{
+    text-align: center;
+    margin-bottom: 0.4em;
+}
+
+.site-inf-cards .card p{
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Gallery */
+
+.section-gallery {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.section-gallery h2 {
+    text-align: center;
+}
+
+.section-gallery a {
+    color: #111;
+    text-decoration: none;
+    font-size: 3em;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px -10px; /* Negative margin to counteract default padding/margin */
+}
+
+.image {
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
+.view-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(187, 42, 42);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Foooter */
+footer {
+    background-color: rgb(187, 42, 42);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}

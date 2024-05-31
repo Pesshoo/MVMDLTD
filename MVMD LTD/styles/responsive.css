@@ -1,0 +1,255 @@
+@media (min-width: 360px) and (max-width: 400px) {
+    html {
+        font: 12px/1.5 'PT Sans', serif;
+    }
+
+    .element2{
+        display: none;
+    }
+
+    .wrapper {
+        width: 26em;
+        margin: 0 auto;
+    }
+    
+    .site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 21em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 5em;
+    }.site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 21em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 5em;
+    }
+
+    .image {
+        flex: 0 0 calc(100% - 20px); /* Adjust the width as needed */
+    }
+}
+
+@media (min-width: 400px) and (max-width: 450px) {
+    html {
+        font: 12px/1.5 'PT Sans', serif;
+    }
+
+    .element2{
+        display: none;
+    }
+
+    .wrapper {
+        width: 30em;
+        margin: 0 auto;
+    }
+    
+    .site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 21em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 5em;
+    }.site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 21em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 5em;
+    }
+
+    .image {
+        flex: 0 0 calc(100% - 20px); /* Adjust the width as needed */
+    }
+}
+
+@media (min-width: 450px) and (max-width: 500px) {
+    html {
+        font: 12px/1.5 'PT Sans', serif;
+    }
+
+    .wrapper {
+        width: 37em;
+        margin: 0 auto;
+    }
+
+    .site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 21em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 5em;
+    }.site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 21em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 5em;
+    }
+
+    .image {
+        flex: 0 0 calc(50% - 20px); /* Adjust the width as needed */
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    html {
+        font: 12px/1.5 'PT Sans', serif;
+    }
+
+    .wrapper {
+        width: 40em;
+        margin: 0 auto;
+    }
+
+    .site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 21em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 5em;
+    }
+
+    .image {
+        flex: 0 0 calc(50% - 20px); /* Adjust the width as needed */
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    html {
+        font: 16px/1.5 'PT Sans', serif;
+    }
+
+    .wrapper {
+        width: 38em;
+        margin: 0 auto;
+    }
+    
+    .site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 21em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 5em;
+    }.site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 21em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 5em;
+    }
+
+    .image {
+        flex: 0 0 calc(50% - 20px); /* Adjust the width as needed */
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1450px) {
+    html {
+        font: 18px/1.5 'PT Sans', serif;
+    }
+
+    .wrapper {
+        width: 53em;
+        margin: 0 auto;
+    }
+    
+    .site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 21em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 5em;
+    }.site-inf-cards{
+        justify-content: center;
+    }
+
+    .site-inf-cards .card{
+        width: 17em;
+        padding: 1em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 3em;
+    }
+
+    .image {
+        flex: 0 0 calc(33% - 20px); /* Adjust the width as needed */
+    }
+}
+
+@media (min-width: 1450px) {
+
+    .wrapper {
+        width: 77em;
+        margin: 0 auto;
+    }
+
+    .site-inf-cards{
+        justify-content: space-between;
+    }
+
+    .site-inf-cards .card{
+        width: 20em;
+        padding: 2em;
+    }
+
+    .site-inf-cards .card i{
+        font-size: 3em;
+    }
+
+    .image {
+        flex: 0 0 calc(33% - 20px); /* Adjust the width as needed */
+    }
+}
